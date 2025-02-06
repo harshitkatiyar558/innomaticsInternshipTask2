@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00000093;
+    position: fixed;
+    z-index: 10;
+
+  
+}
+
+.insideNav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+    margin-right: 40px;
+    
+}
+
+.insideNav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.insideNav a:hover{
+    color: rgb(240, 144, 19);
+   
+}
+
+
+.nav p{
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.nav p:hover{
+    color: rgb(255, 21, 21);
+    
+}
+
+.hero{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('./heroImg.jpg');
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    color: rgb(227, 18, 18);
+    font-size: 80px;
+    margin-top: 0px;
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    font-family: cursive;
+
+}
+
+.cardSection{
+    
+    height: 200vh;
+    width: 100vw;
+    background-color: #1a0a00;
+}
+
+.cardSection h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: bisque;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-family: cursive;
+}
+
+.card{
+    height: 80vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -2px 2px 8px rgb(221, 56, 56);
+}
+
+
+.cardImg1{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("./coffee1.jpg");
+    background-size: cover;
+     background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+
+.cardImg2{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("./coffee2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+
+.cardImg3{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("./coffee3.jpg");
+    background-size: cover;
+     background-position: left center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+
+.cardImg4{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("coffee4.jpg");
+    background-size: cover;
+     background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+.cardImg5{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("./coffee5.jpg");
+    background-size: cover;
+     background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+.cardImg6{
+    height: 55vh;
+    width: 25vw;
+    background-image: url("./coffee6.jpg");
+    background-size: cover;
+     background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+}
+.cardText{
+    height:25vh ;
+    width: 25vw;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: cursive;
+}
+
+.cardGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.cardText p{
+
+    text-align: justify;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+}
+
+.cardText h3{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: cursive;
+}
+
+
+.aboutUs{
+height: 78vh;
+width: 100vw;
+background-color: #7c3305;
+
+}
+
+.aboutUs h1{
+    margin: 0px;
+    text-align: center;
+    color: bisque;
+    padding: 25px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.aboutUs .img{
+    height: 45vh;
+    width: 35vw;
+    position: relative;
+    left: 60vw;
+    top: -50vh;
+    background-image: url('./cafe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  bottom center; */
+}
+
+.aboutUs p{
+    height: 20vh;
+    width: 50vw;
+    position: relative;
+    color: blanchedalmond;
+    top: 13vh;
+    left: 5vw;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    
+
+}
+
+#text{
+    font-family: cursive;
+}
+.aboutUs .style{
+    height: 25vh;
+    width: 25vw;
+    background-color: #00000093;
+    position : relative;
+    left: 72vw;
+    z-index: 8;
+    top: 6vh;
+    border-radius: 10px;
+
+
+}
+
+.aboutUs .style p{
+    margin: 0px;
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+    text-align: justify;
+    
+}
+ .contact{
+    height: 95vh;
+    width: 100vw;
+    background-color:white;
+} 
+
+ .contact h2{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5vh;
+    font-size: 35px;
+    font-family: cursive;
+} 
+ .visitUs{
+    height: 50vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+} 
+
+ .form{
+    height: 65vh;
+    width: 45vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 40vh;
+    left: 50vw;
+    border-radius: 10px;
+}
+
+.form h2{
+    padding-bottom: 2vh;
+    font-family: cursive;
+}
+.form input{
+    height: 5vh;
+    width: 88%;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+    border: none;
+    font-family: cursive;
+
+}
+
+.form textarea{
+    width: 88%;
+    height: 20vh;
+    margin-left: 2vw;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+    padding-bottom: 2vh;
+    font-family: cursive;
+}
+
+.form button{
+    width: 91%;
+    height: 7vh;
+    margin-left: 2vw;
+    border-radius: 10px;
+    background-color: #954a00;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.footer{
+    width: 100vw;
+    height: 35vh;
+    background-color: #1a0a00;
+}
+
+
+.footer p{
+color: #ffe4c4;
+font-size: 25px;
+position: relative;
+top: 16vh;
+left: 40vw;
+font-family: cursive;
+}
+
+.footer i{
+    color: #ffe4c4;
+    font-size: 50px;
+}
+
+.iconsGrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    position: relative;
+    top: 13vh;
+    left: 3vw;
+}
